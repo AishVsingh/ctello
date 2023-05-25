@@ -1,0 +1,10 @@
+/usr/home/vishal/Project/ctello/build/CMakeFiles/ctello.dir
+/usr/home/vishal/Project/ctello/build/CMakeFiles/ctello-command.dir
+/usr/home/vishal/Project/ctello/build/CMakeFiles/ctello-state.dir
+/usr/home/vishal/Project/ctello/build/CMakeFiles/flip.dir
+/usr/home/vishal/Project/ctello/build/CMakeFiles/edit_cache.dir
+/usr/home/vishal/Project/ctello/build/CMakeFiles/rebuild_cache.dir
+/usr/home/vishal/Project/ctello/build/CMakeFiles/list_install_components.dir
+/usr/home/vishal/Project/ctello/build/CMakeFiles/install.dir
+/usr/home/vishal/Project/ctello/build/CMakeFiles/install/local.dir
+/usr/home/vishal/Project/ctello/build/CMakeFiles/install/strip.dir

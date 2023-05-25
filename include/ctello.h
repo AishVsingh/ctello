@@ -27,7 +27,7 @@
 
 // This is the server running in Tello, where we send commands to and we
 // receive responses from
-const char* const TELLO_SERVER_IP{"192.168.10.1"};
+const char* const TELLO_SERVER_IP{"127.0.0.1"};
 const char* const TELLO_SERVER_COMMAND_PORT{"8889"};
 
 // This is the local port where we bind our local UDP client to.

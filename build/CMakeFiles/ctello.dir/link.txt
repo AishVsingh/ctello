@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libctello.so -o libctello.so CMakeFiles/ctello.dir/src/ctello.cpp.o  /usr/local64/lib/libspdlog.a -lpthread 

@@ -118,12 +118,12 @@ std::pair<int, std::string> SendTo(const int sockfd,
                                    const std::vector<unsigned char>& message)
 {
     const socklen_t addr_len{sizeof(dest_addr)};
+    std::stringstream ss;
     int result = sendto(sockfd, message.data(), message.size(), 0,
                         reinterpret_cast<sockaddr*>(&dest_addr), addr_len);
 
     if (result == -1)
     {
-        std::stringstream ss;
         ss << "sendto: " << errno;
         ss << " (" << strerror(errno) << ")";
         return {-1, ss.str()};

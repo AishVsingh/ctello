@@ -6,7 +6,6 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED 17)
 
 find_package(spdlog REQUIRED)
-find_package(OpenCV REQUIRED)
 
 # CTello Shared Library =======================================================
 
@@ -39,41 +38,38 @@ target_link_libraries(ctello-state ctello)
 
 install(TARGETS ctello-state DESTINATION bin)
 
-# CTello Stream ===============================================================
+# # CTello Stream ===============================================================
+#
+# add_executable(ctello-stream src/ctello_stream.cpp)
+#
+# target_include_directories(ctello-stream PRIVATE include)
+#
+# target_link_libraries(ctello-stream ctello)
+#
+# install(TARGETS ctello-stream DESTINATION bin)
 
-add_executable(ctello-stream src/ctello_stream.cpp)
-
-target_include_directories(ctello-stream PRIVATE include)
-
-target_link_libraries(ctello-stream ctello)
-target_link_libraries(ctello-stream ${OpenCV_LIBS})
-
-install(TARGETS ctello-stream DESTINATION bin)
-
-# CTello Joystick =============================================================
-
-add_executable(ctello-joystick src/ctello_joystick.cpp)
-
-target_include_directories(ctello-joystick PRIVATE include)
-
-target_link_libraries(ctello-joystick ctello)
-
-install(TARGETS ctello-joystick DESTINATION bin)
+# # CTello Joystick =============================================================
+#
+# add_executable(ctello-joystick src/ctello_joystick.cpp)
+#
+# target_include_directories(ctello-joystick PRIVATE include)
+#
+# target_link_libraries(ctello-joystick ctello)
+#
+# install(TARGETS ctello-joystick DESTINATION bin)
 
 # CTello Examples =============================================================
 
-## Flip -----------------------------------------------------------------------
+# Flip -----------------------------------------------------------------------
 add_executable(flip examples/flip.cpp)
 
 target_include_directories(flip PRIVATE include)
 
 target_link_libraries(flip ctello)
-target_link_libraries(flip ${OpenCV_LIBS})
 
-## Follow ---------------------------------------------------------------------
-add_executable(follow examples/follow.cpp)
-
-target_include_directories(follow PRIVATE include)
-
-target_link_libraries(follow ctello)
-target_link_libraries(follow ${OpenCV_LIBS})
+# ## Follow ---------------------------------------------------------------------
+# add_executable(follow examples/follow.cpp)
+#
+# target_include_directories(follow PRIVATE include)
+#
+# target_link_libraries(follow ctello)
