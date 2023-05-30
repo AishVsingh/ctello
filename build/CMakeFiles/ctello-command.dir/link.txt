@@ -1,1 +1,1 @@
-/usr/bin/c++ "CMakeFiles/ctello-command.dir/src/ctello_command.cpp.o" -o ctello-command  -Wl,-rpath,/usr/home/vishal/Project/ctello/build: libctello.so 
+/usr/bin/c++ CMakeFiles/ctello-command.dir/src/ctello_command.cpp.o -o ctello-command  -Wl,-rpath,/home/aish/projects/dasa/ctello/build: libctello.so 

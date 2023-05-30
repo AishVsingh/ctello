@@ -1,1 +1,1 @@
-/usr/bin/c++ "CMakeFiles/ctello-state.dir/src/ctello_state.cpp.o" -o ctello-state  -Wl,-rpath,/usr/home/vishal/Project/ctello/build: libctello.so 
+/usr/bin/c++ CMakeFiles/ctello-state.dir/src/ctello_state.cpp.o -o ctello-state  -Wl,-rpath,/home/aish/projects/dasa/ctello/build: libctello.so 

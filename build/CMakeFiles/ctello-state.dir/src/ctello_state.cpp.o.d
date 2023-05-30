@@ -1,253 +1,183 @@
 CMakeFiles/ctello-state.dir/src/ctello_state.cpp.o: \
-  /usr/home/vishal/Project/ctello/src/ctello_state.cpp \
-  /usr/include/c++/v1/cstdlib /usr/include/c++/v1/__config \
-  /usr/include/c++/v1/__config_site /usr/include/sys/endian.h \
-  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
-  /usr/include/machine/_types.h /usr/include/machine/endian.h \
-  /usr/include/sys/_endian.h /usr/include/osreldate.h \
-  /usr/include/pthread.h /usr/include/c++/v1/stdlib.h \
-  /usr/include/stdlib.h /usr/include/sys/_null.h \
-  /usr/include/c++/v1/iomanip /usr/include/c++/v1/__string \
-  /usr/include/c++/v1/__algorithm/copy.h \
-  /usr/include/c++/v1/__algorithm/unwrap_iter.h \
-  /usr/include/c++/v1/iterator /usr/include/c++/v1/__debug \
-  /usr/include/c++/v1/iosfwd /usr/include/c++/v1/wchar.h \
-  /usr/include/c++/v1/stddef.h /usr/include/stddef.h \
-  /usr/include/c++/v1/__nullptr /usr/include/wchar.h \
-  /usr/include/machine/_limits.h /usr/include/_ctype.h \
-  /usr/include/runetype.h /usr/include/xlocale/_wchar.h \
-  /usr/include/c++/v1/__functional_base \
-  /usr/include/c++/v1/__functional/binary_function.h \
-  /usr/include/c++/v1/__functional/invoke.h \
-  /usr/include/c++/v1/__functional/weak_result_type.h \
-  /usr/include/c++/v1/__functional/unary_function.h \
-  /usr/include/c++/v1/__undef_macros /usr/include/c++/v1/type_traits \
-  /usr/include/c++/v1/cstddef /usr/include/c++/v1/version \
-  /usr/include/c++/v1/__utility/forward.h \
-  /usr/include/c++/v1/__functional/operations.h \
-  /usr/include/c++/v1/__functional/reference_wrapper.h \
-  /usr/include/c++/v1/__memory/addressof.h \
-  /usr/include/c++/v1/__memory/allocator_arg_t.h \
-  /usr/include/c++/v1/__memory/uses_allocator.h \
-  /usr/include/c++/v1/exception /usr/include/c++/v1/__availability \
-  /usr/include/c++/v1/new /usr/include/c++/v1/typeinfo \
-  /usr/include/c++/v1/cstdint /usr/include/c++/v1/stdint.h \
-  /usr/include/stdint.h /usr/include/machine/_stdint.h \
-  /usr/include/sys/_stdint.h /usr/include/c++/v1/utility \
-  /usr/include/c++/v1/__tuple /usr/include/c++/v1/__utility/as_const.h \
-  /usr/include/c++/v1/__utility/move.h \
-  /usr/include/c++/v1/__utility/cmp.h /usr/include/c++/v1/limits \
-  /usr/include/c++/v1/__utility/declval.h \
-  /usr/include/c++/v1/__utility/exchange.h \
-  /usr/include/c++/v1/__utility/in_place.h \
-  /usr/include/c++/v1/__utility/integer_sequence.h \
-  /usr/include/c++/v1/__utility/pair.h \
-  /usr/include/c++/v1/__functional/unwrap_ref.h \
-  /usr/include/c++/v1/__utility/piecewise_construct.h \
-  /usr/include/c++/v1/__utility/rel_ops.h \
-  /usr/include/c++/v1/__utility/swap.h \
-  /usr/include/c++/v1/__utility/to_underlying.h \
-  /usr/include/c++/v1/compare /usr/include/c++/v1/initializer_list \
-  /usr/include/c++/v1/__iterator/access.h \
-  /usr/include/c++/v1/__iterator/advance.h \
-  /usr/include/c++/v1/__function_like.h \
-  /usr/include/c++/v1/__iterator/concepts.h \
-  /usr/include/c++/v1/__iterator/incrementable_traits.h \
-  /usr/include/c++/v1/concepts \
-  /usr/include/c++/v1/__iterator/iter_move.h \
-  /usr/include/c++/v1/__iterator/iterator_traits.h \
-  /usr/include/c++/v1/__iterator/readable_traits.h \
-  /usr/include/c++/v1/__memory/pointer_traits.h \
-  /usr/include/c++/v1/__iterator/back_insert_iterator.h \
-  /usr/include/c++/v1/__iterator/iterator.h \
-  /usr/include/c++/v1/__iterator/common_iterator.h \
-  /usr/include/c++/v1/__iterator/iter_swap.h \
-  /usr/include/c++/v1/__ranges/access.h \
-  /usr/include/c++/v1/__ranges/enable_borrowed_range.h \
-  /usr/include/c++/v1/__utility/__decay_copy.h \
-  /usr/include/c++/v1/variant /usr/include/c++/v1/__functional/hash.h \
-  /usr/include/c++/v1/cstring /usr/include/c++/v1/string.h \
-  /usr/include/string.h /usr/include/strings.h \
-  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
-  /usr/include/c++/v1/__variant/monostate.h /usr/include/c++/v1/tuple \
-  /usr/include/c++/v1/__iterator/counted_iterator.h \
-  /usr/include/c++/v1/__iterator/default_sentinel.h \
-  /usr/include/c++/v1/__iterator/data.h \
-  /usr/include/c++/v1/__iterator/distance.h \
-  /usr/include/c++/v1/__iterator/empty.h \
-  /usr/include/c++/v1/__iterator/erase_if_container.h \
-  /usr/include/c++/v1/__iterator/front_insert_iterator.h \
-  /usr/include/c++/v1/__iterator/insert_iterator.h \
-  /usr/include/c++/v1/__iterator/istreambuf_iterator.h \
-  /usr/include/c++/v1/__iterator/istream_iterator.h \
-  /usr/include/c++/v1/__iterator/move_iterator.h \
-  /usr/include/c++/v1/__iterator/next.h \
-  /usr/include/c++/v1/__iterator/ostreambuf_iterator.h \
-  /usr/include/c++/v1/__iterator/ostream_iterator.h \
-  /usr/include/c++/v1/__iterator/prev.h \
-  /usr/include/c++/v1/__iterator/projected.h \
-  /usr/include/c++/v1/__iterator/reverse_access.h \
-  /usr/include/c++/v1/__iterator/reverse_iterator.h \
-  /usr/include/c++/v1/__iterator/size.h \
-  /usr/include/c++/v1/__iterator/wrap_iter.h \
-  /usr/include/c++/v1/__algorithm/copy_backward.h \
-  /usr/include/c++/v1/__algorithm/copy_n.h \
-  /usr/include/c++/v1/__algorithm/fill_n.h \
-  /usr/include/c++/v1/__algorithm/find_first_of.h \
-  /usr/include/c++/v1/__algorithm/comp.h \
-  /usr/include/c++/v1/__algorithm/find_end.h \
-  /usr/include/c++/v1/__algorithm/min.h \
-  /usr/include/c++/v1/__algorithm/min_element.h \
-  /usr/include/c++/v1/cstdio /usr/include/c++/v1/stdio.h \
-  /usr/include/stdio.h /usr/include/c++/v1/cwchar \
-  /usr/include/c++/v1/cwctype /usr/include/c++/v1/cctype \
-  /usr/include/c++/v1/ctype.h /usr/include/ctype.h \
-  /usr/include/xlocale/_ctype.h /usr/include/c++/v1/wctype.h \
-  /usr/include/wctype.h /usr/include/c++/v1/istream \
-  /usr/include/c++/v1/ostream /usr/include/c++/v1/bitset \
-  /usr/include/c++/v1/__bit_reference /usr/include/c++/v1/__bits \
-  /usr/include/c++/v1/algorithm /usr/include/c++/v1/functional \
-  /usr/include/c++/v1/__algorithm/search.h \
-  /usr/include/c++/v1/__functional/binary_negate.h \
-  /usr/include/c++/v1/__functional/bind_front.h \
-  /usr/include/c++/v1/__functional/perfect_forward.h \
-  /usr/include/c++/v1/__functional/bind.h \
-  /usr/include/c++/v1/__functional/binder1st.h \
-  /usr/include/c++/v1/__functional/binder2nd.h \
-  /usr/include/c++/v1/__functional/default_searcher.h \
-  /usr/include/c++/v1/__functional/function.h \
-  /usr/include/c++/v1/__memory/allocator_traits.h \
-  /usr/include/c++/v1/__memory/construct_at.h \
-  /usr/include/c++/v1/__memory/compressed_pair.h \
-  /usr/include/c++/v1/__memory/shared_ptr.h \
-  /usr/include/c++/v1/__memory/allocation_guard.h \
-  /usr/include/c++/v1/__memory/allocator.h /usr/include/c++/v1/stdexcept \
-  /usr/include/c++/v1/__memory/unique_ptr.h /usr/include/c++/v1/atomic \
-  /usr/include/c++/v1/__threading_support /usr/include/c++/v1/chrono \
-  /usr/include/c++/v1/ctime /usr/include/time.h \
-  /usr/include/sys/_clock_id.h /usr/include/sys/timespec.h \
-  /usr/include/sys/_timespec.h /usr/include/xlocale/_time.h \
-  /usr/include/c++/v1/ratio /usr/include/c++/v1/climits \
-  /usr/include/c++/v1/limits.h /usr/include/limits.h \
-  /usr/include/sys/limits.h /usr/include/sys/syslimits.h \
-  /usr/include/c++/v1/errno.h /usr/include/errno.h \
-  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_sigset.h \
-  /usr/include/sched.h /usr/include/sys/types.h \
-  /usr/include/sys/select.h /usr/include/sys/_timeval.h \
-  /usr/include/sys/sched.h /usr/include/sys/cpuset.h \
-  /usr/include/sys/_cpuset.h /usr/include/sys/_bitset.h \
-  /usr/include/sys/bitset.h /usr/include/semaphore.h \
-  /usr/include/sys/_umtx.h /usr/include/c++/v1/memory \
-  /usr/include/c++/v1/__memory/pointer_safety.h \
-  /usr/include/c++/v1/__memory/raw_storage_iterator.h \
-  /usr/include/c++/v1/__memory/temporary_buffer.h \
-  /usr/include/c++/v1/__memory/uninitialized_algorithms.h \
-  /usr/include/c++/v1/__functional/identity.h \
-  /usr/include/c++/v1/__functional/mem_fn.h \
-  /usr/include/c++/v1/__functional/mem_fun_ref.h \
-  /usr/include/c++/v1/__functional/not_fn.h \
-  /usr/include/c++/v1/__functional/pointer_to_binary_function.h \
-  /usr/include/c++/v1/__functional/pointer_to_unary_function.h \
-  /usr/include/c++/v1/__functional/ranges_operations.h \
-  /usr/include/c++/v1/__functional/unary_negate.h \
-  /usr/include/c++/v1/__algorithm/adjacent_find.h \
-  /usr/include/c++/v1/__algorithm/all_of.h \
-  /usr/include/c++/v1/__algorithm/any_of.h \
-  /usr/include/c++/v1/__algorithm/binary_search.h \
-  /usr/include/c++/v1/__algorithm/lower_bound.h \
-  /usr/include/c++/v1/__algorithm/half_positive.h \
-  /usr/include/c++/v1/__algorithm/comp_ref_type.h \
-  /usr/include/c++/v1/__algorithm/clamp.h \
-  /usr/include/c++/v1/__algorithm/copy_if.h \
-  /usr/include/c++/v1/__algorithm/count.h \
-  /usr/include/c++/v1/__algorithm/count_if.h \
-  /usr/include/c++/v1/__algorithm/equal.h \
-  /usr/include/c++/v1/__algorithm/equal_range.h \
-  /usr/include/c++/v1/__algorithm/upper_bound.h \
-  /usr/include/c++/v1/__algorithm/fill.h \
-  /usr/include/c++/v1/__algorithm/find.h \
-  /usr/include/c++/v1/__algorithm/find_if.h \
-  /usr/include/c++/v1/__algorithm/find_if_not.h \
-  /usr/include/c++/v1/__algorithm/for_each.h \
-  /usr/include/c++/v1/__algorithm/for_each_n.h \
-  /usr/include/c++/v1/__algorithm/generate_n.h \
-  /usr/include/c++/v1/__algorithm/generate.h \
-  /usr/include/c++/v1/__algorithm/includes.h \
-  /usr/include/c++/v1/__algorithm/inplace_merge.h \
-  /usr/include/c++/v1/__algorithm/move.h \
-  /usr/include/c++/v1/__algorithm/rotate.h \
-  /usr/include/c++/v1/__algorithm/move_backward.h \
-  /usr/include/c++/v1/__algorithm/swap_ranges.h \
-  /usr/include/c++/v1/__algorithm/is_heap.h \
-  /usr/include/c++/v1/__algorithm/is_heap_until.h \
-  /usr/include/c++/v1/__algorithm/is_partitioned.h \
-  /usr/include/c++/v1/__algorithm/is_permutation.h \
-  /usr/include/c++/v1/__algorithm/is_sorted.h \
-  /usr/include/c++/v1/__algorithm/is_sorted_until.h \
-  /usr/include/c++/v1/__algorithm/iter_swap.h \
-  /usr/include/c++/v1/__algorithm/lexicographical_compare.h \
-  /usr/include/c++/v1/__algorithm/make_heap.h \
-  /usr/include/c++/v1/__algorithm/sift_down.h \
-  /usr/include/c++/v1/__algorithm/max.h \
-  /usr/include/c++/v1/__algorithm/max_element.h \
-  /usr/include/c++/v1/__algorithm/merge.h \
-  /usr/include/c++/v1/__algorithm/minmax.h \
-  /usr/include/c++/v1/__algorithm/minmax_element.h \
-  /usr/include/c++/v1/__algorithm/mismatch.h \
-  /usr/include/c++/v1/__algorithm/next_permutation.h \
-  /usr/include/c++/v1/__algorithm/reverse.h \
-  /usr/include/c++/v1/__algorithm/none_of.h \
-  /usr/include/c++/v1/__algorithm/nth_element.h \
-  /usr/include/c++/v1/__algorithm/sort.h \
-  /usr/include/c++/v1/__algorithm/partial_sort.h \
-  /usr/include/c++/v1/__algorithm/sort_heap.h \
-  /usr/include/c++/v1/__algorithm/pop_heap.h \
-  /usr/include/c++/v1/__algorithm/partial_sort_copy.h \
-  /usr/include/c++/v1/__algorithm/partition.h \
-  /usr/include/c++/v1/__algorithm/partition_copy.h \
-  /usr/include/c++/v1/__algorithm/partition_point.h \
-  /usr/include/c++/v1/__algorithm/prev_permutation.h \
-  /usr/include/c++/v1/__algorithm/push_heap.h \
-  /usr/include/c++/v1/__algorithm/remove.h \
-  /usr/include/c++/v1/__algorithm/remove_copy.h \
-  /usr/include/c++/v1/__algorithm/remove_copy_if.h \
-  /usr/include/c++/v1/__algorithm/remove_if.h \
-  /usr/include/c++/v1/__algorithm/replace.h \
-  /usr/include/c++/v1/__algorithm/replace_copy.h \
-  /usr/include/c++/v1/__algorithm/replace_copy_if.h \
-  /usr/include/c++/v1/__algorithm/replace_if.h \
-  /usr/include/c++/v1/__algorithm/reverse_copy.h \
-  /usr/include/c++/v1/__algorithm/rotate_copy.h \
-  /usr/include/c++/v1/__algorithm/sample.h \
-  /usr/include/c++/v1/__random/uniform_int_distribution.h \
-  /usr/include/c++/v1/__algorithm/search_n.h \
-  /usr/include/c++/v1/__algorithm/set_difference.h \
-  /usr/include/c++/v1/__algorithm/set_intersection.h \
-  /usr/include/c++/v1/__algorithm/set_symmetric_difference.h \
-  /usr/include/c++/v1/__algorithm/set_union.h \
-  /usr/include/c++/v1/__algorithm/shift_left.h \
-  /usr/include/c++/v1/__algorithm/shift_right.h \
-  /usr/include/c++/v1/__algorithm/shuffle.h \
-  /usr/include/c++/v1/__algorithm/stable_partition.h \
-  /usr/include/c++/v1/__algorithm/stable_sort.h \
-  /usr/include/c++/v1/__algorithm/transform.h \
-  /usr/include/c++/v1/__algorithm/unique_copy.h \
-  /usr/include/c++/v1/__algorithm/unique.h /usr/include/c++/v1/string \
-  /usr/include/c++/v1/string_view \
-  /usr/include/c++/v1/__ranges/enable_view.h /usr/include/c++/v1/ios \
-  /usr/include/c++/v1/__locale /usr/include/c++/v1/mutex \
-  /usr/include/c++/v1/__mutex_base /usr/include/c++/v1/system_error \
-  /usr/include/c++/v1/__errc /usr/include/c++/v1/cerrno \
-  /usr/include/c++/v1/locale.h /usr/include/locale.h \
-  /usr/include/xlocale/_locale.h /usr/include/xlocale.h \
-  /usr/include/xlocale/_stdlib.h /usr/include/xlocale/_stdio.h \
-  /usr/include/c++/v1/locale /usr/include/c++/v1/cstdarg \
-  /usr/include/stdarg.h /usr/include/sys/_stdarg.h \
-  /usr/include/c++/v1/streambuf /usr/include/nl_types.h \
-  /usr/include/c++/v1/__bsd_locale_defaults.h \
-  /usr/include/c++/v1/iostream \
-  /usr/home/vishal/Project/ctello/include/ctello.h \
-  /usr/include/sys/socket.h /usr/include/sys/_iovec.h \
-  /usr/include/machine/_align.h /usr/include/sys/_sockaddr_storage.h \
-  /usr/include/c++/v1/optional /usr/include/c++/v1/vector \
-  /usr/include/c++/v1/__split_buffer
+ /home/aish/projects/dasa/ctello/src/ctello_state.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/11/cstdlib \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+ /usr/include/c++/11/pstl/pstl_config.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/c++/11/bits/std_abs.h /usr/include/c++/11/iomanip \
+ /usr/include/c++/11/iosfwd /usr/include/c++/11/bits/stringfwd.h \
+ /usr/include/c++/11/bits/memoryfwd.h /usr/include/c++/11/bits/postypes.h \
+ /usr/include/c++/11/cwchar /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /usr/include/c++/11/bits/ios_base.h /usr/include/c++/11/ext/atomicity.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+ /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+ /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+ /usr/include/c++/11/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+ /usr/include/c++/11/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/cctype \
+ /usr/include/ctype.h /usr/include/c++/11/bits/locale_classes.h \
+ /usr/include/c++/11/string /usr/include/c++/11/bits/char_traits.h \
+ /usr/include/c++/11/bits/stl_algobase.h \
+ /usr/include/c++/11/bits/functexcept.h \
+ /usr/include/c++/11/bits/exception_defines.h \
+ /usr/include/c++/11/bits/cpp_type_traits.h \
+ /usr/include/c++/11/ext/type_traits.h \
+ /usr/include/c++/11/ext/numeric_traits.h \
+ /usr/include/c++/11/bits/stl_pair.h /usr/include/c++/11/bits/move.h \
+ /usr/include/c++/11/type_traits \
+ /usr/include/c++/11/bits/stl_iterator_base_types.h \
+ /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/11/bits/concept_check.h \
+ /usr/include/c++/11/debug/assertions.h \
+ /usr/include/c++/11/bits/stl_iterator.h \
+ /usr/include/c++/11/bits/ptr_traits.h /usr/include/c++/11/debug/debug.h \
+ /usr/include/c++/11/bits/predefined_ops.h /usr/include/c++/11/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/c++/11/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+ /usr/include/c++/11/ext/new_allocator.h /usr/include/c++/11/new \
+ /usr/include/c++/11/bits/exception.h \
+ /usr/include/c++/11/bits/ostream_insert.h \
+ /usr/include/c++/11/bits/cxxabi_forced.h \
+ /usr/include/c++/11/bits/stl_function.h \
+ /usr/include/c++/11/backward/binders.h \
+ /usr/include/c++/11/bits/range_access.h \
+ /usr/include/c++/11/initializer_list \
+ /usr/include/c++/11/bits/basic_string.h \
+ /usr/include/c++/11/ext/alloc_traits.h \
+ /usr/include/c++/11/bits/alloc_traits.h \
+ /usr/include/c++/11/bits/stl_construct.h /usr/include/c++/11/string_view \
+ /usr/include/c++/11/bits/functional_hash.h \
+ /usr/include/c++/11/bits/hash_bytes.h \
+ /usr/include/c++/11/bits/string_view.tcc \
+ /usr/include/c++/11/ext/string_conversions.h /usr/include/c++/11/cstdio \
+ /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/c++/11/cerrno /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+ /usr/include/c++/11/bits/charconv.h \
+ /usr/include/c++/11/bits/basic_string.tcc \
+ /usr/include/c++/11/bits/locale_classes.tcc \
+ /usr/include/c++/11/system_error \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+ /usr/include/c++/11/stdexcept /usr/include/c++/11/exception \
+ /usr/include/c++/11/bits/exception_ptr.h \
+ /usr/include/c++/11/bits/cxxabi_init_exception.h \
+ /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
+ /usr/include/c++/11/locale /usr/include/c++/11/bits/locale_facets.h \
+ /usr/include/c++/11/cwctype /usr/include/wctype.h \
+ /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+ /usr/include/c++/11/streambuf /usr/include/c++/11/bits/streambuf.tcc \
+ /usr/include/c++/11/bits/streambuf_iterator.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+ /usr/include/c++/11/bits/locale_facets.tcc \
+ /usr/include/c++/11/bits/locale_facets_nonio.h /usr/include/c++/11/ctime \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/11/bits/codecvt.h \
+ /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/11/bits/locale_conv.h \
+ /usr/include/c++/11/bits/unique_ptr.h /usr/include/c++/11/utility \
+ /usr/include/c++/11/bits/stl_relops.h /usr/include/c++/11/tuple \
+ /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
+ /usr/include/c++/11/bits/invoke.h \
+ /usr/include/c++/11/bits/quoted_string.h /usr/include/c++/11/sstream \
+ /usr/include/c++/11/istream /usr/include/c++/11/ios \
+ /usr/include/c++/11/bits/basic_ios.h \
+ /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/ostream \
+ /usr/include/c++/11/bits/ostream.tcc \
+ /usr/include/c++/11/bits/istream.tcc \
+ /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/iostream \
+ /home/aish/projects/dasa/ctello/include/ctello.h \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+ /usr/include/c++/11/optional \
+ /usr/include/c++/11/bits/enable_special_members.h \
+ /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/vector.tcc

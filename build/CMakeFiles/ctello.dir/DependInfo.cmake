@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/usr/home/vishal/Project/ctello/src/ctello.cpp" "CMakeFiles/ctello.dir/src/ctello.cpp.o" "gcc" "CMakeFiles/ctello.dir/src/ctello.cpp.o.d"
+  "/home/aish/projects/dasa/ctello/src/ctello.cpp" "CMakeFiles/ctello.dir/src/ctello.cpp.o" "gcc" "CMakeFiles/ctello.dir/src/ctello.cpp.o.d"
   )
 
 # Targets to which this target links.
