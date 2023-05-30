@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/flip.dir/examples/flip.cpp.o -o flip  -Wl,-rpath,/home/aish/projects/dasa/ctello/build libctello.so 
