@@ -30,13 +30,13 @@ install(TARGETS ctello-command DESTINATION bin)
 
 # CTello State ================================================================
 
-add_executable(ctello-state src/ctello_state.cpp)
-
-target_include_directories(ctello-state PRIVATE include)
-
-target_link_libraries(ctello-state ctello)
-
-install(TARGETS ctello-state DESTINATION bin)
+# add_executable(ctello-state src/ctello_state.cpp)
+#
+# target_include_directories(ctello-state PRIVATE include)
+#
+# target_link_libraries(ctello-state ctello)
+#
+# install(TARGETS ctello-state DESTINATION bin)
 
 # # CTello Stream ===============================================================
 #
@@ -61,11 +61,11 @@ install(TARGETS ctello-state DESTINATION bin)
 # CTello Examples =============================================================
 
 # Flip -----------------------------------------------------------------------
-add_executable(flip examples/flip.cpp)
-
-target_include_directories(flip PRIVATE include)
-
-target_link_libraries(flip ctello)
+# add_executable(flip examples/flip.cpp)
+#
+# target_include_directories(flip PRIVATE include)
+#
+# target_link_libraries(flip ctello)
 
 # ## Follow ---------------------------------------------------------------------
 # add_executable(follow examples/follow.cpp)
